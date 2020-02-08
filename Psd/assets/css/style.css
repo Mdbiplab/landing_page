@@ -1,0 +1,536 @@
+/* Global CSS Start */
+body {
+   font-family: 'Poppins', sans-serif;
+}
+i {
+    color: #22a690;
+    margin-right: 15px;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.title {}
+.title h2 {
+   font-size: 40px;
+    font-weight: 700;
+    color: #2e2e2e;
+    text-transform: uppercase;
+    border: 0px solid #d7d7d7;
+    border-bottom-width: 1px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.title h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0.1px;
+    background: #22a690;
+    width: 150px;
+    height: 6px;
+}
+
+.sub_title {}
+.sub_title h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #2e2e2e;
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.sub_title h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -11px;
+    margin: 0 auto;
+    background: #22a690;
+    width: 55px;
+    height: 6px
+}
+
+.card_custom {
+    width: 255px;
+    border: unset;
+    background: unset;
+    margin-top: 50px;
+}
+
+.card_custom .card-img-top {
+    height: 200px;
+    border-radius: unset;
+    -webkit-border-radius: unset;
+    -moz-border-radius: unset;
+    -ms-border-radius: unset;
+    -o-border-radius: unset;
+
+}
+.card_custom .card-body {}
+.card_custom .card-body .card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2e2e2e;
+    text-transform: uppercase;
+    margin-left: -21px;
+    margin-top: -8px;
+}
+.card_custom .card-body .card-text {
+    font-size: 10px;
+    font-weight: 400;
+    color: #666666;
+    margin-left: -20px;
+    margin-top: -3px;
+    margin-bottom: 25px;
+}
+.blue_btn {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background: #25a590;
+    padding: 12px 40px;
+    margin-left: -20px;
+}
+
+.blue_btn:hover {
+    background: green;
+    opacity: .9;
+    color: #fff;
+}
+
+/* Global CSS End */
+
+/* Header_Top Area Start */
+#header_top {
+    height: 40px;
+    background: #2e2e2e;
+    position: relative;
+}
+#header_top p {
+    font-size: 12px;
+    color: #fff;
+    padding: 10px 0px
+}
+#header_top .header_top_right {}
+#header_top .header_top_right p {
+    margin-left: 0px;
+    position: absolute;
+    right: 50px;
+}
+#header_top .header_top_right p a {
+    font-size: 12px;
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+/* Header_Top Area End */
+
+
+/* Header CSS Start */
+
+header {
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    top: 40px;
+    padding: 12px 0px;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    background: #818388;
+    width: 100%;
+    height: 106px;
+    opacity: .4;
+}
+
+header .nav-item {
+    border: 0px solid #fdfdfe;;
+    border-left-width: 2px;
+    height: 16px;
+    margin-top: 5px;
+    padding: 0px 8px;
+}
+
+header .nav-item:first-child {
+    border: none;
+}
+
+header .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fdfdfe;
+    margin-top: -14px;
+}
+
+header .nav-item .nav-link:hover {
+    background: #fdfdf;
+    color: #fff;
+}
+
+
+/* Header CSS End */
+
+
+
+/* Slider CSS Start */
+#slider {
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#slider::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 225px;
+    right: 200;
+    background: #000000;
+    width: 665px;
+    height: 250px;
+    opacity: .41;
+}
+
+#slider h1 {
+    font-size: 47px;
+    font-weight: 700;
+    color: #fff;
+    padding-right: 480px;
+    padding-top: 20%;
+    padding-left: 0px;
+
+}
+
+#slider p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 612px;
+    margin-top: 16px;
+
+}
+/* Slider CSS End */
+
+
+
+/* Banner CSS Start */
+#banner {
+    background-color: #229883;
+    padding-bottom: 38px;
+}
+#banner .ban_item {
+    padding-top: 60px;
+}
+#banner .ban_item .media {}
+#banner .ban_item .media img {
+    width: 88px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+#banner .ban_item .media-body {}
+#banner .ban_item .media-body h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+#banner .ban_item .media-body p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding-right: 18px;
+}
+/* Banner CSS End */
+
+/* Expert CSS Start */
+#expert {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+#expert .heading {
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 64px;
+    padding-bottom: 60px;
+
+}
+#expert .heading h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #2e2e2e;
+    text-transform: uppercase;
+
+}
+#expert .title {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+#expert .title h2 {}
+#expert .exp_item {}
+#expert .exp_item .media {}
+#expert .exp_item .media .exp_img{
+    width: 182px;
+    height: 196px;
+    border: 3px solid #fff;
+    outline: solid #2e2e2e 1px;
+    overflow: hidden;
+}
+
+#expert .exp_item .media img{
+    margin-left: -70px;
+    margin-top: -10px;;
+}
+.img1 {
+    margin-left: -73px;
+}
+#expert .exp_item .media-body{
+    padding-top: 40px;
+}
+#expert .exp_item .media-body h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2e2e2e;
+    padding-left: 22px;
+}
+#expert .exp_item .media-body p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    padding-left: 22px;
+}
+
+/* Expert CSS End */
+
+/* Service CSS Start */
+#service {
+    background-color: #f7f7f7;
+    padding: 145px 0px;
+}
+/* Service CSS End */
+
+
+/* Article CSS Start */
+#article {
+    padding: 145px 0px;
+}
+#article .arrow_icon {
+    position: absolute;
+    bottom: 13px;
+    right: 4px;
+}
+#article  .arrow_icon .fa {
+    width: 45px;
+}
+
+#article .article_img {
+    margin-top: 50px;
+}
+#article .article_img img {
+    width: 495px;
+}
+#article .article_text {
+    margin-top: 50px;
+}
+#article .article_text h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #;
+    color: #2e2e2e;
+}
+#article .article_text p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    margin-top: 20px;
+}
+/* Article CSS End */
+
+
+/* Ourquoi CSS Start */
+#pourquoi {
+    background-color: #f7f7f7;
+    padding: 145px 0px;
+}
+#pourquoi .title h2{
+    font-size: 30px;
+}
+#pourquoi .title h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0.1px;
+    background: #22a690;
+    width: 115px;
+    height: 6px;
+}
+#pourquoi .pourquoi_title h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0.1px;
+    background: #22a690;
+    width: 115px;
+    height: 4px;
+}
+#pourquoi .pourquoi_item {
+    margin-top: 40px;
+}
+.pourquoi_item .media img {
+    width: 101px;
+    margin-left: -20px;
+}
+.pourquoi_item .media-body {
+    margin-left: 15px;
+}
+.pourquoi_item .media-body h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2e2e2e;
+    text-transform: uppercase;
+}
+.pourquoi_item .media-body p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    margin-top: 10px;
+    padding-right: 80px;
+}
+.propos_img {
+    margin-top: 40px;
+}
+.propos_img img {
+    width: 260px
+}
+.propos_text {
+    margin-top: 40px;
+}
+.propos_text p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 27px;
+}
+.propos_text .blue_btn{
+    padding: 8px 35px;
+    margin-left: 0px;
+}
+/* Ourquoi CSS End */
+
+
+/* Association CSS Start  */
+#association {
+    padding: 113px 0px;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#association .title h2{
+    font-size: 30px;
+}
+#association .title h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0.1px;
+    background: #22a690;
+    width: 115px;
+    height: 4px;
+}
+#association .association_img {
+    width: 195px;
+    height: 85px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    margin-top: 45px;
+}
+#association .association_img img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90px;
+}
+/* Association CSS End  */
+
+
+/* Footer CSS Start */
+footer {
+    background: #2e2e2e;
+    padding: 145px 0px;
+}
+.footer_item {}
+.footer_item h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffff;
+    text-transform: uppercase;
+    width: 260px;
+}
+.footer_item h5 {}
+.footer_item p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffff;
+}
+.footer_logo {}
+.footer_logo img {
+    width: 200px;
+}
+.footer_logo p {
+    margin: 85px 0px;
+}
+.footer_logo .blue_btn {
+    margin-left: 0px;
+    padding: 10px 30px;
+}
+.footer_item .fo_ser_item {
+    margin-top: 20px;
+}
+.footer_item .fo_ser_item h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+.footer_item .fo_ser_item p {
+    margin-top: -8px;
+}
+.Notre {}
+.Notre p {
+    margin-top: 20px;
+    overflow: hidden;
+    height: 110px;
+}
+.Notre h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contact {}
+.contact p {
+    margin-top: 20px;
+}
+.contact p a {
+    color: #fff;
+    font-size: 18px;
+}
+.contact p i {
+   
+}
+/* Footer CSS End */
+
